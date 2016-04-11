@@ -1,0 +1,3 @@
+fooPage:
+    path: '/foo'
+    defaults: { _controller: 'acme.controller.default::fooAction' }
