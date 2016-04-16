@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bfe8648fd46d38c28577c0db75850b91",
-    "content-hash": "c99e4dc17f4a4730e19f02260b49bb69",
+    "hash": "9a9a4f781cf109e8ecfde0943b9e25ad",
+    "content-hash": "8c7114aa655aa06a69d0e12c100ac15b",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -875,17 +875,101 @@
             "time": "2014-01-12 16:20:24"
         },
         {
-            "name": "monolog/monolog",
-            "version": "1.18.2",
+            "name": "knplabs/gaufrette",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "064b38c16790249488e7a8b987acf1c9d7383c09"
+                "url": "https://github.com/KnpLabs/Gaufrette.git",
+                "reference": "1696386ca66f2f046dea7892cf1f85fd82b5b68e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/064b38c16790249488e7a8b987acf1c9d7383c09",
-                "reference": "064b38c16790249488e7a8b987acf1c9d7383c09",
+                "url": "https://api.github.com/repos/KnpLabs/Gaufrette/zipball/1696386ca66f2f046dea7892cf1f85fd82b5b68e",
+                "reference": "1696386ca66f2f046dea7892cf1f85fd82b5b68e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "amazonwebservices/aws-sdk-for-php": "1.5.*",
+                "aws/aws-sdk-php": "~2",
+                "doctrine/dbal": ">=2.3",
+                "dropbox-php/dropbox-php": "*",
+                "google/apiclient": "~1.1.3",
+                "herzult/php-ssh": "*",
+                "microsoft/windowsazure": "dev-master",
+                "mikey179/vfsstream": "~1.2.0",
+                "phpseclib/phpseclib": "^2.0",
+                "phpspec/phpspec": "2.0.*",
+                "phpunit/phpunit": "3.7.*",
+                "rackspace/php-opencloud": "1.9.*"
+            },
+            "suggest": {
+                "amazonwebservices/aws-sdk-for-php": "to use the legacy Amazon S3 adapters",
+                "aws/aws-sdk-php": "to use the Amazon S3 adapter",
+                "doctrine/dbal": "to use the Doctrine DBAL adapter",
+                "dropbox-php/dropbox-php": "to use the Dropbox adapter",
+                "ext-apc": "to use the APC adapter",
+                "ext-curl": "*",
+                "ext-fileinfo": "This extension is used to automatically detect the content-type of a file in the AwsS3, OpenCloud, AzureBlogStorage and GoogleCloudStorage adapters",
+                "ext-mbstring": "*",
+                "ext-mongo": "*",
+                "ext-zip": "to use the Zip adapter",
+                "google/apiclient": "to use GoogleCloudStorage adapter",
+                "herzult/php-ssh": "to use SFtp adapter",
+                "knplabs/knp-gaufrette-bundle": "to use with Symfony2",
+                "microsoft/windowsazure": "to use Microsoft Azure Blob Storage adapter",
+                "phpseclib/phpseclib": "to use PhpseclibSftp adapter",
+                "rackspace/php-opencloud": "to use Opencloud adapter"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Gaufrette": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "The contributors",
+                    "homepage": "http://github.com/knplabs/Gaufrette/contributors"
+                },
+                {
+                    "name": "KnpLabs Team",
+                    "homepage": "http://knplabs.com"
+                }
+            ],
+            "description": "PHP5 library that provides a filesystem abstraction layer",
+            "homepage": "http://knplabs.com",
+            "keywords": [
+                "abstraction",
+                "file",
+                "filesystem",
+                "media"
+            ],
+            "time": "2016-03-03 09:36:22"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5f56ed5212dc509c8dc8caeba2715732abb32dbf",
+                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf",
                 "shasum": ""
             },
             "require": {
@@ -950,7 +1034,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-04-02 13:12:58"
+            "time": "2016-04-12 18:29:35"
         },
         {
             "name": "paragonie/random_compat",
@@ -1300,20 +1384,20 @@
         },
         {
             "name": "symfony/monolog-bundle",
-            "version": "v2.10.0",
+            "version": "2.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/monolog-bundle.git",
-                "reference": "82fd8f36e2cccbe94faf237403c48052d4d4b77e"
+                "reference": "e7caf4936c7be82bc6d68df87f1d23a0d5bf6e00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/82fd8f36e2cccbe94faf237403c48052d4d4b77e",
-                "reference": "82fd8f36e2cccbe94faf237403c48052d4d4b77e",
+                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/e7caf4936c7be82bc6d68df87f1d23a0d5bf6e00",
+                "reference": "e7caf4936c7be82bc6d68df87f1d23a0d5bf6e00",
                 "shasum": ""
             },
             "require": {
-                "monolog/monolog": "~1.12",
+                "monolog/monolog": "~1.18",
                 "php": ">=5.3.2",
                 "symfony/config": "~2.3|~3.0",
                 "symfony/dependency-injection": "~2.3|~3.0",
@@ -1328,7 +1412,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.9.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1356,7 +1440,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2016-03-13 15:55:56"
+            "time": "2016-04-13 16:21:01"
         },
         {
             "name": "symfony/polyfill-intl-icu",
@@ -1881,16 +1965,16 @@
         },
         {
             "name": "teknoo/east-framework",
-            "version": "0.0.1-alpha2",
+            "version": "0.0.1-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TeknooSoftware/east-framework.git",
-                "reference": "4ce346e30e7762c83c4ae694134afe4870d445f8"
+                "reference": "554c054e111f2a7a6db92dc7c35457241f89c185"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TeknooSoftware/east-framework/zipball/4ce346e30e7762c83c4ae694134afe4870d445f8",
-                "reference": "4ce346e30e7762c83c4ae694134afe4870d445f8",
+                "url": "https://api.github.com/repos/TeknooSoftware/east-framework/zipball/91cc3b483c7aff76f206f9b5393c3a4b2dab9dc9",
+                "reference": "554c054e111f2a7a6db92dc7c35457241f89c185",
                 "shasum": ""
             },
             "require": {
@@ -1898,6 +1982,8 @@
                 "psr/http-message": "~1.0",
                 "symfony/psr-http-message-bridge": "~0.2",
                 "teknoo/immutable": "~0.0.1-alpha1",
+                "teknoo/states": "^2.0.3",
+                "teknoo/states-bundle": "^2.1.0",
                 "zendframework/zend-diactoros": "~1.0"
             },
             "require-dev": {
@@ -1932,7 +2018,7 @@
                 "controller",
                 "design"
             ],
-            "time": "2016-04-11 21:08:41"
+            "time": "2016-04-16 12:18:49"
         },
         {
             "name": "teknoo/immutable",
@@ -1983,6 +2069,124 @@
                 "object"
             ],
             "time": "2016-04-09 18:03:01"
+        },
+        {
+            "name": "teknoo/states",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TeknooSoftware/states.git",
+                "reference": "47aaf54986470faa88d3fbf81c10b90396148507"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TeknooSoftware/states/zipball/47aaf54986470faa88d3fbf81c10b90396148507",
+                "reference": "47aaf54986470faa88d3fbf81c10b90396148507",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/gaufrette": "~0.2",
+                "php": "~7.0",
+                "symfony/console": "^2.2|^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.0"
+            },
+            "bin": [
+                "bin/states"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Teknoo\\States\\": [
+                        "src/"
+                    ],
+                    "Teknoo\\Tests\\States\\": [
+                        "tests/States/"
+                    ],
+                    "Teknoo\\Tests\\Support\\": [
+                        "tests/Support/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Déloge",
+                    "email": "richarddeloge@gmail.com",
+                    "role": "Software architect, Lead developer"
+                }
+            ],
+            "description": "Library to create PHP classes following the State pattern in PHP. This can be a cleaner way for an object to change its behavior at runtime without resorting to large monolithic conditional statements and thus improve maintainability.",
+            "homepage": "http://teknoo.software/states",
+            "keywords": [
+                "behavioral software design pattern",
+                "class",
+                "pattern",
+                "state pattern",
+                "states"
+            ],
+            "time": "2016-04-09 17:57:44"
+        },
+        {
+            "name": "teknoo/states-bundle",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TeknooSoftware/statesBundle.git",
+                "reference": "b31006ef478d97ebf54a68e6a653edd7a6404ce3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TeknooSoftware/statesBundle/zipball/b31006ef478d97ebf54a68e6a653edd7a6404ce3",
+                "reference": "b31006ef478d97ebf54a68e6a653edd7a6404ce3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.0",
+                "teknoo/states": "~2.0.0"
+            },
+            "require-dev": {
+                "doctrine/mongodb-odm": "~1.0.0",
+                "doctrine/orm": "~2.2",
+                "phpunit/phpunit": "~5.0",
+                "symfony/console": "~2.7||~3.0",
+                "symfony/framework-bundle": "~2.7||~3.0",
+                "symfony/validator": "~2.7||3.0",
+                "teknoo/states-life-cycle": "~1.0.0-beta4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Teknoo\\Bundle\\StatesBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Déloge",
+                    "email": "richarddeloge@gmail.com",
+                    "role": "Software architect, Lead developer"
+                }
+            ],
+            "description": "Symfony bunde to create PHP classes following the State pattern in PHP. This can be a cleaner way for an object to change its behavior at runtime without resorting to large monolithic conditional statements and thus improve maintainability. (Build on the Teknoo Software States library)",
+            "homepage": "http://teknoo.software/states",
+            "keywords": [
+                "behavioral software design pattern",
+                "bundle",
+                "class",
+                "pattern",
+                "state pattern",
+                "states",
+                "symfony"
+            ],
+            "time": "2016-04-16 09:14:21"
         },
         {
             "name": "twig/twig",
@@ -2214,7 +2418,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5.9"
+        "php": ">=7.0"
     },
     "platform-dev": []
 }
