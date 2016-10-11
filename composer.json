@@ -30,8 +30,10 @@
         "incenteev/composer-parameter-handler": "^2.0",
         "symfony/psr-http-message-bridge":"~0.2",
         "zendframework/zend-diactoros": "~1.0",
-        "teknoo/immutable": "~0.0.1-alpha3",
-        "teknoo/east-framework": "~0.0.1-alpha2"
+        "teknoo/states": "^3.0.0-alpha2",
+        "teknoo/states-bundle": "^3.0.0-alpha1",
+        "teknoo/immutable": "^0.0.1",
+        "teknoo/east-framework": "^0.0.4-alpha3"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
