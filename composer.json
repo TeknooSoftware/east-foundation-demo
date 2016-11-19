@@ -31,9 +31,9 @@
         "symfony/psr-http-message-bridge":"~0.2",
         "zendframework/zend-diactoros": "~1.0",
         "teknoo/states": "^3.0.0-alpha2",
-        "teknoo/states-bundle": "^3.0.0-alpha1",
+        "teknoo/states-bundle": "^3.0.0-alpha7",
         "teknoo/immutable": "^0.0.1",
-        "teknoo/east-framework": "^0.0.4-alpha3"
+        "teknoo/east-foundation": "^0.0.4-alpha5"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

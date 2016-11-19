@@ -2,13 +2,16 @@
 
 namespace AppBundle\Controller;
 
-use Teknoo\East\Framework\Controller\Controller;
-use Teknoo\East\Framework\Http\ClientInterface;
+use Psr\Http\Message\ServerRequestInterface;
+use Teknoo\East\Foundation\Http\ClientInterface;
+use Teknoo\East\FoundationBundle\Controller\EastControllerTrait;
 
-class DefaultController extends Controller
+class DefaultController
 {
-    public function fooAction(ClientInterface $client)
+    use EastControllerTrait;
+
+    public function __invoke(ServerRequestInterface $serverRequest, ClientInterface $client)
     {
-        return $this->render($client, 'AppBundle:Default:foo.html.twig');
+        return $this->render($client, 'AppBundle:Default:main.html.twig');
     }
 }
