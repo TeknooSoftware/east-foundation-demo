@@ -1,9 +1,10 @@
-Teknoo Software - East Framework - Demo
-=======================================
+Teknoo Software - East Foundation - Demo
+========================================
 
-Demo to illustrate the project [East Framework](https://www.google.fr/?ion=1&espv=2#q=%23east%20symfony) with Symfony.
+Demo to illustrate the project [East Framework](https://github.com/TeknooSoftware/east-foundation) with Symfony.
 
-East framework is a bundle to implement the [#east](http://blog.est.voyage/phpTour2015/) philosophy in Symfony project :
+East Foundation is a universal package to implement the [#east](http://blog.est.voyage/phpTour2015/) philosophy with 
+any framework supporting PSR-11 or with Symfony 3+: 
 All public method of objects must return $this or a new instance of $this.
 
 Credits
