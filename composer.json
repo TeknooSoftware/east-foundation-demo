@@ -1,6 +1,6 @@
 {
     "name": "teknoo/east-framework-demo",
-    "description": "Demo about East framework",
+    "description": "Demo about East Foundation with Symfony",
     "license": "MIT",
     "type": "project",
     "autoload": {
